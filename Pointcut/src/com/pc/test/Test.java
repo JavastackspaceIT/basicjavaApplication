@@ -15,6 +15,7 @@ public class Test {
 		Calculator proxy = (Calculator) proxyFactory.getProxy();
 		proxy.add(10, 30);
 		proxy.add(3, 2);
+		// here we are call multiply method using proxy object 
 		proxy.multiply(10, 5);
 	}
 }
