@@ -17,5 +17,6 @@ public class Test {
 		proxy.add(3, 2);
 		// here we are call multiply method using proxy object 
 		proxy.multiply(10, 5);
+		// this my code
 	}
 }
